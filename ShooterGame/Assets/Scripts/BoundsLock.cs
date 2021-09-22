@@ -4,7 +4,7 @@
  * 
  * Last Edited: 9/15/2021
  * 
- * Description: Boundry of the game
+ * Description: Boundery of the game
  * **/
 
 using System.Collections;
