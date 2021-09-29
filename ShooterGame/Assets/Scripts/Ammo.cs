@@ -31,7 +31,11 @@ public class Ammo : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Health HH = other.gameObject.GetComponent<Health>();
-        HH.HealthPoints -= Damage;
-        Die();
+        if(other.tag != "Player")
+        {
+            HH.HealthPoints -= Damage;
+            Die();
+        }
+        //HH.HealthPoints -= Damage;
     }//end OnTriggerEnter
 }

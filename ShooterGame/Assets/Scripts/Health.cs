@@ -47,9 +47,9 @@ public class Health : MonoBehaviour
     void Update()
     {
         //Debug Health test
-        if (Input.GetKeyDown(KeyCode.Space))
+        /*if (Input.GetKeyDown(KeyCode.Space))
         {
             HealthPoints = 0;
-        }//end Debug
+        }*///end Debug
     }
 }
