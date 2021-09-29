@@ -74,5 +74,9 @@ public class PlayerController : MonoBehaviour
     {
         CanFire = true;
     }
+    void OnDestroy()
+    {
+        GameManager.IsPlayerDead = true;
+    }
 
 }
